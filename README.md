@@ -29,6 +29,4 @@ n k1 k2 C1 C2 L
 **Lines 2 to n+1 — cities:**
 - city index, x coordinate, y coordinate, demand rate `ri` (items/day)
 
-Distances are computed as Euclidean: `d(i,j) = sqrt((xi-xj)^2 + (yi-yj)^2)`
-
 ---
