@@ -11,7 +11,7 @@ demand = {}
 # Here we read our input file. First line of the file contains the number of locations, k1, k2, C1, C2, and L.
 # There are n = number of locations lines after the first.
 # These have the location index, coordinates, and demand of each location.
-with open('large.txt') as file:
+with open('xxxl.txt') as file:
     first = next(file).split()
     n, k1, k2, C1, C2, L = int(first[0]), int(first[1]), int(first[2]), int(first[3]), int(first[4]), float(first[5])
 
